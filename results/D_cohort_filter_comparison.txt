@@ -1,0 +1,5 @@
+Number of tweets in D cohort after removing filters.
+All: 1,510,359
+Remove "http": 1,088,331
+Remove urls object: 1,224,972
+Remove both: 1,088,329

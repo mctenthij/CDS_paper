@@ -1,0 +1,86 @@
+# Personal plotting style
+# Author: Marijn ten Thij <mctenthij@gmail.com>
+
+#### MATPLOTLIBRC FORMAT
+
+## ***************************************************************************
+## * LINES                                                                   *
+## ***************************************************************************
+
+lines.linewidth : 3  ## line width in points
+
+
+## ***************************************************************************
+## * FONT                                                                    *
+## ***************************************************************************
+
+font.size : 16.0
+
+
+## ***************************************************************************
+## * LaTeX                                                                   *
+## ***************************************************************************
+
+text.usetex : True
+text.latex.preamble :  \usepackage{amsmath}\usepackage{amssymb}\usepackage{amsthm}\usepackage{bbm}
+
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+
+axes.grid          : True    ## display grid or not
+axes.grid.axis     : both    ## which axis the grid should apply to
+axes.grid.which    : both    ## gridlines at {major, minor, both} ticks
+axes.titlesize     : 28      ## fontsize of the axes title
+axes.labelsize     : 22      ## fontsize of the x any y labels
+
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+
+xtick.labelsize     : 22     ## fontsize of the tick labels
+xtick.minor.visible : True   ## visibility of minor ticks on x-axis
+ytick.labelsize     : 22     ## fontsize of the tick labels
+ytick.minor.visible : True   ## visibility of minor ticks on y-axis
+
+
+## ***************************************************************************
+## * GRIDS                                                                   *
+## ***************************************************************************
+
+grid.linewidth : 1.0     ## in points
+grid.alpha     : 0.2     ## transparency, between 0.0 and 1.0
+
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+
+legend.fontsize      : 22
+legend.handlelength  : 1.0  ## the length of the legend lines
+
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+
+figure.titlesize   : 28         ## size of the figure title (``Figure.suptitle()``)
+figure.figsize     : 16.0, 4.0  ## figure size in inches
+figure.dpi         : 300        ## figure dots per inch
+
+
+## ***************************************************************************
+## * IMAGES                                                                  *
+## ***************************************************************************
+
+image.cmap   : Spectral         ## A colormap name, gray etc...
+image.origin : lower            ## {lower, upper}
+
+
+## ***************************************************************************
+## * SAVING FIGURES                                                          *
+## ***************************************************************************
+
+savefig.dpi       : 300      ## figure dots per inch or 'figure'

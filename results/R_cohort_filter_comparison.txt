@@ -1,0 +1,5 @@
+Number of tweets in R cohort after removing filters.
+All: 6,783,353
+Remove "http": 4,322,886
+Remove urls object: 4,887,368
+Remove both: 4,322,857
